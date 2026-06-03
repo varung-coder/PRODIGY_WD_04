@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G Varun | Full Stack Developer</title>
+    <meta name="description" content="Portfolio of G Varun, a Full Stack Developer and B.Tech CSE Student focused on building scalable, secure, and user-friendly web applications.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Background Particles Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">G VARUN<span>.</span></a>
+            <div class="nav-links" id="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#exploring">Exploring</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 class="hero-title">G Varun</h1>
+            <h2 class="hero-subtitle">I am a <br class="mobile-break"><span class="typing-text"></span><span class="cursor">&nbsp;</span></h2>
+            <p class="hero-description">Passionate Full Stack Developer and Computer Science Engineering student focused on building scalable, secure, and user-friendly web applications.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-primary" download><i class="fa-solid fa-download"></i> Resume</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/varung-coder" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/g-varun-182951388?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <!-- Floating Tech Icons around image -->
+            <div class="floating-icon icon-1"><i class="fa-brands fa-react"></i></div>
+            <div class="floating-icon icon-2"><i class="fa-brands fa-node-js"></i></div>
+            <div class="floating-icon icon-3"><i class="fa-solid fa-database"></i></div>
+            <div class="hero-image-wrapper">
+                <img src="./profile.jpg" alt="G Varun" class="hero-img">
+                <div class="glow-ring"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section-padding" id="about">
+        <div class="section-header reveal">
+            <h2 class="section-title">About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-container reveal">
+            <div class="about-card glass-card">
+                <div class="about-content">
+                    <p class="highlight-text" style="line-height: 1.8;">
+                        I am G Varun, a Full Stack Developer and B.Tech Computer Science & Engineering student at Christ College of Engineering. I specialize in developing secure, scalable, and user-focused web applications using modern technologies. My experience includes authentication systems, cloud-based databases, responsive user interfaces, and deployment workflows. I enjoy transforming ideas into real-world applications that deliver seamless user experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education section-padding" id="education">
+        <div class="section-header reveal">
+            <h2 class="section-title">Education</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="experience-container reveal">
+            <div class="experience-card glass-card">
+                <div class="exp-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                <div class="exp-content">
+                    <h3>B.Tech Computer Science & Engineering</h3>
+                    <p class="exp-role">Christ College of Engineering | Present</p>
+                    <ul class="exp-details">
+                        <li>Studying core Computer Science fundamentals</li>
+                        <li>Full Stack Web Development</li>
+                        <li>Database Management Systems</li>
+                        <li>Software Engineering Principles</li>
+                        <li>Modern Web Technologies</li>
+                        <li>Problem Solving and Programming</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section-padding" id="skills">
+        <div class="section-header reveal">
+            <h2 class="section-title">Tech Stack</h2>
+            <div class="underline"></div>
+        </div>
+        
+        <div class="skills-grid reveal">
+            <!-- Frontend -->
+            <div class="skill-category glass-card">
+                <h3 class="category-title">Frontend</h3>
+                <div class="skill-items">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5" style="color: #E34F26;"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-css3-alt" style="color: #1572B6;"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-brands fa-square-js" style="color: #F7DF1E;"></i>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend & DB -->
+            <div class="skill-category glass-card">
+                <h3 class="category-title">Backend & Database</h3>
+                <div class="skill-items">
+                    <div class="skill-card">
+                        <i class="fa-brands fa-envira" style="color: #FFCA28;"></i>
+                        <span>Firebase</span>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database" style="color: #FFCA28;"></i>
+                        <span>Firestore</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Deployment -->
+            <div class="skill-category glass-card">
+                <h3 class="category-title">Deployment</h3>
+                <div class="skill-items" style="grid-template-columns: 1fr;">
+                    <div class="skill-card">
+                        <i class="fa-solid fa-caret-up" style="color: #ffffff;"></i>
+                        <span>Vercel</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section-padding" id="projects">
+        <div class="section-header reveal">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="underline"></div>
+            <p class="section-subtitle mt-3 text-muted">A selection of my best Full Stack applications.</p>
+        </div>
+        <div class="projects-grid reveal">
+            <!-- Project 1 -->
+            <div class="project-card glass-card">
+                <div class="project-image">
+                    <div class="project-text-banner" style="background: linear-gradient(135deg, #FF416C, #FF4B2B);">
+                        <h2 class="banner-title">CINEBOOK</h2>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://movie-booking-system-two.vercel.app/" target="_blank" class="icon-link" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/varung-coder/movie-booking-system" target="_blank" class="icon-link" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Movie Booking System</h3>
+                    <p class="project-desc">A full-stack movie booking application designed to provide users with a seamless ticket booking experience. The platform features secure authentication, responsive user interfaces, and efficient data management using Firebase and Firestore.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Firebase</span>
+                        <span>Firestore</span>
+                        <span>GitHub</span>
+                        <span>Vercel</span>
+                    </div>
+                    <ul class="project-features">
+                        <li><i class="fa-solid fa-check-circle"></i> Google Authentication & Secure Login</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Movie Browsing Interface & Ticket Booking</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Firestore Database Integration</li>
+                    </ul>
+                    <div class="project-actions mt-auto pt-4">
+                        <a href="https://movie-booking-system-two.vercel.app/" target="_blank" class="btn btn-primary btn-sm"><i class="fa-solid fa-play"></i> Live Demo</a>
+                        <a href="https://github.com/varung-coder/movie-booking-system" target="_blank" class="btn btn-secondary btn-sm"><i class="fa-brands fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass-card">
+                <div class="project-image">
+                    <div class="project-text-banner" style="background: linear-gradient(135deg, #11998e, #38ef7d);">
+                        <h2 class="banner-title">VOTING PLATFORM</h2>
+                    </div>
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="https://voting-platform-one.vercel.app/" target="_blank" class="icon-link" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/varung-coder/voting-platform" target="_blank" class="icon-link" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Online Voting Platform</h3>
+                    <p class="project-desc">A secure full-stack voting application that enables authenticated users to participate in online elections through a responsive and user-friendly interface. The platform leverages Firebase services for authentication and database management.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Firebase</span>
+                        <span>Firestore</span>
+                        <span>GitHub</span>
+                        <span>Vercel</span>
+                    </div>
+                    <ul class="project-features">
+                        <li><i class="fa-solid fa-check-circle"></i> Secure Voting System & User Auth</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Google Authentication Integration</li>
+                        <li><i class="fa-solid fa-check-circle"></i> Real-Time Data Management via Firestore</li>
+                    </ul>
+                    <div class="project-actions mt-auto pt-4">
+                        <a href="https://voting-platform-one.vercel.app/" target="_blank" class="btn btn-primary btn-sm"><i class="fa-solid fa-play"></i> Live Demo</a>
+                        <a href="https://github.com/varung-coder/voting-platform" target="_blank" class="btn btn-secondary btn-sm"><i class="fa-brands fa-github"></i> Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section-padding" id="experience">
+        <div class="section-header reveal">
+            <h2 class="section-title">Experience</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="experience-container reveal">
+            <div class="experience-card glass-card">
+                <div class="exp-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <div class="exp-content">
+                    <h3>Full Stack Development Projects</h3>
+                    <p class="exp-role">Full Stack Developer & Project Builder</p>
+                    <ul class="exp-details">
+                        <li>Built and deployed full-stack web applications.</li>
+                        <li>Integrated Google Authentication for secure access.</li>
+                        <li>Implemented Firebase and Firestore for backend data management.</li>
+                        <li>Developed responsive and scalable interfaces.</li>
+                        <li>Managed deployment using Vercel.</li>
+                        <li>Followed modern software development workflows and best practices.</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="experience-card glass-card mt-4">
+                <div class="exp-icon"><i class="fa-solid fa-car-side"></i></div>
+                <div class="exp-content">
+                    <h3>GoKart Workshops Attendee</h3>
+                    <p class="exp-role">Technical Workshop Participant</p>
+                    <ul class="exp-details">
+                        <li>Gained practical knowledge by actively attending intensive GoKart workshops.</li>
+                        <li>Learned about automotive design principles, mechanics, and team coordination.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-card glass-card mt-4">
+                <div class="exp-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                <div class="exp-content">
+                    <h3>Techfest Volunteer</h3>
+                    <p class="exp-role">Christ College of Engineering</p>
+                    <ul class="exp-details">
+                        <li>Actively volunteered and managed events during the college technical festival.</li>
+                        <li>Collaborated with diverse teams to ensure the smooth execution of various technical activities.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements section-padding" id="achievements">
+        <div class="section-header reveal">
+            <h2 class="section-title">Achievements & Recognition</h2>
+            <div class="underline"></div>
+        </div>
+        
+        <div class="achievements-list-grid reveal">
+            <!-- Achievement 1 -->
+            <div class="achievement-card-detailed glass-card">
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <div class="achievement-info">
+                    <h3>Web Development Intern</h3>
+                    <h4>Prodigy Infotech</h4>
+                    <p>Successfully completed web development internship projects, building responsive and interactive web applications using modern frontend technologies.</p>
+                </div>
+            </div>
+
+            <!-- Achievement 2 -->
+            <div class="achievement-card-detailed glass-card">
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-medal"></i>
+                </div>
+                <div class="achievement-info">
+                    <h3>Web Development & Designing Intern</h3>
+                    <h4>Oasis Infobyte</h4>
+                    <p>Worked on web development and UI/UX design projects, strengthening frontend development and design skills.</p>
+                </div>
+            </div>
+
+            <!-- Achievement 3 -->
+            <div class="achievement-card-detailed glass-card">
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+                <div class="achievement-info">
+                    <h3>Participant – HackFit 4.0</h3>
+                    <h4>National Level Hackathon (FISAT College)</h4>
+                    <p>Participated in HackFit 4.0, collaborating on innovative problem-solving and software development.</p>
+                </div>
+            </div>
+
+            <!-- Achievement 4 -->
+            <div class="achievement-card-detailed glass-card">
+                <div class="achievement-icon">
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="achievement-info">
+                    <h3>Smart India Hackathon (SIH) 2025</h3>
+                    <h4>Internal Phase 2 Round Selection</h4>
+                    <p>Selected for the Internal Phase 2 Round of Smart India Hackathon (SIH) 2025, demonstrating technical skills, innovation, and project development capabilities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Currently Exploring Section -->
+    <section class="exploring section-padding" id="exploring">
+        <div class="section-header reveal">
+            <h2 class="section-title">Currently Exploring</h2>
+            <div class="underline"></div>
+        </div>
+        
+        <div class="exploring-grid reveal">
+            <div class="explore-card glass-card">
+                <div class="explore-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+                <h3>Advanced Firebase Features</h3>
+            </div>
+            <div class="explore-card glass-card">
+                <div class="explore-icon"><i class="fa-solid fa-code-merge"></i></div>
+                <h3>CI/CD Pipelines</h3>
+            </div>
+            <div class="explore-card glass-card">
+                <div class="explore-icon"><i class="fa-solid fa-network-wired"></i></div>
+                <h3>Modern Full Stack Architectures</h3>
+            </div>
+            <div class="explore-card glass-card">
+                <div class="explore-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                <h3>Cloud Deployment Strategies</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section-padding" id="contact">
+        <div class="section-header reveal">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-container reveal">
+            <div class="contact-info glass-card">
+                <h3>Contact Information</h3>
+                <p>Looking for a dedicated Full Stack Developer? Let's connect!</p>
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Kerala, India</span>
+                </div>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:varung.coder@gmail.com">varung.coder@gmail.com</a>
+                </div>
+                <div class="info-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/g-varun-182951388?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">LinkedIn Profile</a>
+                </div>
+                <div class="info-item">
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/varung-coder" target="_blank">github.com/varung-coder</a>
+                </div>
+            </div>
+            
+            <form class="contact-form glass-card" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" required placeholder=" ">
+                    <label for="name">Your Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required placeholder=" ">
+                    <label for="email">Your Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" required placeholder=" "></textarea>
+                    <label for="message">Your Message</label>
+                </div>
+                <button type="submit" class="btn btn-primary submit-btn">
+                    <span>Send Message</span>
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+                <div class="form-message" id="formMessage">Message sent successfully!</div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">G VARUN<span>.</span></div>
+            <p>Built with Passion & Code.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/varung-coder" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/g-varun-182951388?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:varung.coder@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 G Varun. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="./script.js"></script>
+</body>
+</html>
